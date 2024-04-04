@@ -1,0 +1,54 @@
+/* style.css */
+
+/* Gaya untuk latar belakang halaman login */
+body {
+    background-color: #3498db; /* Ubah ke warna biru yang diinginkan */
+}
+
+/* Gaya umum */
+.container {
+    margin-top: 100px !important;
+}
+
+/* Gaya untuk mengatur lebar kolom pada layar yang lebih kecil */
+@media (max-width: 768px) {
+    .container {
+        margin-top: 50px !important;
+    }
+}
+
+/* Gaya untuk mengatur lebar tabel pada layar yang lebih kecil */
+@media (max-width: 576px) {
+    .table {
+        font-size: 12px;
+    }
+}
+
+/* Tabel Responsif */
+.table-responsive {
+    overflow-x: auto;
+}
+
+/* Kolom pada Tabel */
+.table th,
+.table td {
+    padding: 8px;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Media Queries untuk Responsivitas */
+@media (max-width: 768px) {
+    /* Kolom pada Tabel */
+    .table th,
+    .table td {
+        padding: 4px;
+        font-size: 12px;
+    }
+}
